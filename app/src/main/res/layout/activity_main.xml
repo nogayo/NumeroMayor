@@ -23,7 +23,7 @@
             android:id="@+id/btnIzquierdo" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:onClick="clickIzquierdo"/>
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:onClick="calculoIzquierdo"/>
     <Button
             android:text="Button"
             android:layout_width="wrap_content"
@@ -32,14 +32,14 @@
             app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
-    />
+            android:onClick="calculoDerecho"/>
     <TextView
-            android:text="contador"
+            android:text="Contador: 0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/contadorTxt"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="161dp"
-            android:layout_marginRight="161dp" android:layout_marginBottom="68dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="156dp"
+            android:layout_marginRight="156dp" android:layout_marginBottom="4dp"
             app:layout_constraintEnd_toEndOf="parent"/>
 
 </android.support.constraint.ConstraintLayout>
